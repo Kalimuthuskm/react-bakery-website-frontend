@@ -1,70 +1,130 @@
-# Getting Started with Create React App
+<h1 align="center">🍰 SKM Bakery - React Website</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <a href="https://skmbakery.netlify.app" target="_blank">
+    <img src="https://img.shields.io/badge/Live%20Site-Click%20Here-green?style=for-the-badge" alt="Live Site Badge"/>
+  </a>
+  <img src="https://img.shields.io/badge/Frontend-React.js-blue?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge"/>
+</p>
 
-## Available Scripts
+<p align="center">
+  A responsive, modern, and clean React-based website UI for SKM Bakery. Built with only frontend technologies, this project showcases a sweet and elegant design suitable for bakeries and cafes.
+</p>
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## ✨ Preview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+🔗 **Live Website:** [https://skmbakery.netlify.app](https://skmbakery.netlify.app)
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🚀 Features
 
-### `npm run build`
+- ✅ Fully responsive design
+- 🎨 Clean & modern UI/UX
+- 🧁 Product showcase (can be expanded)
+- 📱 Mobile-friendly layout
+- 🌐 Hosted on Netlify
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🛠 Tech Stack
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+| Technology | Description |
+|------------|-------------|
+| `React.js` | JavaScript library for building UI |
+| `HTML5`    | Markup structure |
+| `CSS3` / `Tailwind` | Styling (custom or utility-based) |
+| `Netlify`  | Hosting platform for frontend apps |
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 📁 Folder Structure
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+react-bakery-website-frontend/
+├── public/
+│   └── index.html
+├── src/
+│   ├── components/       # Reusable UI components
+│   ├── pages/            # Home, About, etc.
+│   ├── assets/           # Images, fonts, etc.
+│   ├── App.js
+│   ├── index.js
+│   └── styles/
+├── .gitignore
+├── package.json
+└── README.md
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+````
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🧪 Installation & Setup
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+# Clone the repository
+git clone https://github.com/your-username/react-bakery-website-frontend.git
 
-### Code Splitting
+# Navigate into the folder
+cd react-bakery-website-frontend
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# Install dependencies
+npm install
 
-### Analyzing the Bundle Size
+# Start the development server
+npm start
+````
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## 📦 Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+This project is deployed using **Netlify**.
 
-### Advanced Configuration
+To deploy your own version:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+1. Create a [Netlify](https://netlify.com) account.
+2. Connect your GitHub repo.
+3. Set build command to `npm run build` and publish directory to `build/`.
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 📌 Future Improvements
 
-### `npm run build` fails to minify
+* 🛒 Add shopping cart or ordering system
+* 📧 Integrate contact form (email or WhatsApp)
+* 🗂 Convert to full-stack (Node.js + MongoDB)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+## 🧑‍💻 Author
+
+**Kalimuthu S**
+📧 [kalimuthu.dev@gmail.com](mailto:kalimuthu.dev@gmail.com)
+🌍 Tamil Nadu, India
+🔗 [LinkedIn](https://www.linkedin.com) (update your link)
+🔗 [Portfolio](https://yourportfolio.com) (optional)
+
+---
+
+## 📸 Website Preview
+
+
+![image](https://github.com/user-attachments/assets/a775f44d-c395-4f60-969e-d0d4698ba0c2)
+
+![image](https://github.com/user-attachments/assets/7a2709f4-5206-46f2-a649-1aafc5f6a4b2)
+
+![image](https://github.com/user-attachments/assets/1bb481c0-0f99-4370-9aeb-0b5592dbdb73)
+
+![image](https://github.com/user-attachments/assets/9495019a-72b9-4ae2-b312-2d787c961bdc)
+
+
+
+
+
+
