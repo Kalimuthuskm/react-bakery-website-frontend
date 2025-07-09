@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+html {
+  scroll-behavior: smooth;
+}
+
+section[id] {
+  scroll-margin-top: 100px; /* accounts for sticky navbar */
+}

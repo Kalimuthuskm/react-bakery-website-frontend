@@ -1,0 +1,152 @@
+.cart-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.empty-cart, .order-complete {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.empty-cart p, .order-complete p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.continue-btn, .checkout-btn {
+  background-color: #5C2C06;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.continue-btn:hover, .checkout-btn:not(:disabled):hover {
+  background-color: #6b3e26;
+}
+
+.cart-container {
+  display: flex;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.cart-items {
+  flex: 2;
+}
+
+.cart-item {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+.item-image {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.item-details {
+  flex: 1;
+}
+
+.quantity-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.quantity-controls button {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ddd;
+  background: white;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.remove-btn {
+  background: none;
+  border: none;
+  color: #d4a762;
+  cursor: pointer;
+}
+
+.checkout-section {
+  flex: 1;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  height: fit-content;
+}
+
+.summary-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.summary-row.total {
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-top: 20px;
+}
+
+.checkout-form {
+  margin-top: 30px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input, .form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.form-group textarea {
+  height: 100px;
+  resize: vertical;
+}
+
+.checkout-btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+@media (max-width: 768px) {
+  .cart-container {
+    flex-direction: column;
+  }
+  
+  .cart-item {
+    flex-direction: column;
+  }
+  
+  .item-image {
+    width: 100%;
+    height: auto;
+  }
+}
